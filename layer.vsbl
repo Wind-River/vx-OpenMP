@@ -1,0 +1,29 @@
+/* layer.vsbl file for OpenMP runtime library */
+
+/*
+ * Copyright (c) 2019 Wind River Systems, Inc.
+ *
+ * The right to copy, distribute, modify, or otherwise make use
+ * of this software may be licensed only pursuant to the terms
+ * of an applicable Wind River license agreement.
+ */
+
+/*
+Modification history
+--------------------
+29apr19,kjn  create (F11802).
+*/
+
+
+Layer OPENMP
+    {
+    SYNOPSIS        OpenMP runtime library
+    HELP            VxWorks runtime library for LLVM/GCC OpenMP support.
+    VERSION         5.0.0.0
+    VENDOR          Wind River
+    FEATURE         OPEN_SOURCE
+    VSB_REQUIRES    LIBCPLUS_STD
+    FEATURE_REQUIRES
+    OPTIONAL        YES
+    DEFAULT         NO
+    }
