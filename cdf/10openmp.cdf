@@ -1,12 +1,15 @@
 /* 10openmp.cdf - VxWorks OpenMP support */
 
 /*
- * Copyright (c) 2019 Wind River Systems, Inc.
- *
- * The right to copy, distribute, modify or otherwise make use of this software
- * may be licensed only pursuant to the terms of an applicable Wind River
- * license agreement.
- */
+ * Copyright (c) 2019, Wind River Systems, Inc.
+//===----------------------------------------------------------------------===//
+//
+// Part of the LLVM Project, under the Apache License v2.0 with LLVM Exceptions.
+// See https://llvm.org/LICENSE.txt for license information.
+// SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
+//
+//===----------------------------------------------------------------------===//
+*/
 
 /*
 modification history
